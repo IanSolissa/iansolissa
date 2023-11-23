@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phpaktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+            android:src="@drawable/phplogo" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   PHP Functions"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:text="    Kekuatan sebenarnya dari PHP berasal dari fungsinya.
+
+PHP memiliki lebih dari 1000 fungsi bawaan, dan selain itu Anda dapat membuat fungsi kustom Anda sendiri."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    PHP Built-in Functions"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:text="PHP memiliki lebih dari 1000 fungsi bawaan yang dapat dipanggil secara langsung, dari dalam skrip, untuk melakukan tugas tertentu.
+Silakan periksa referensi PHP kami untuk ikhtisar lengkap tentang fungsi bawaan PHP ."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    PHP User Defined Functions"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+      android:text="Selain fungsi PHP bawaan, dimungkinkan untuk membuat fungsi Anda sendiri."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fungsi adalah blok pernyataan yang dapat digunakan berulang kali dalam suatu program."/>
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Suatu fungsi tidak akan dijalankan secara otomatis saat halaman dimuat."/>
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         android:text="Suatu fungsi akan dieksekusi oleh panggilan ke fungsi tersebut."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Create a User Defined Function in PHP"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Deklarasi fungsi yang ditentukan pengguna dimulai dengan kata function:"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Sintaks"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/functionphp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

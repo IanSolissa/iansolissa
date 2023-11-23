@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HTMLlAktifitas">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:src="@drawable/logohtml"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="     Basic : "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Dalam bab ini kami akan menunjukkan beberapa contoh dasar HTML.
+
+Jangan khawatir jika kami menggunakan tag yang belum Anda pelajari."/>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text=" Dokumen HTML : "
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semua dokumen HTML harus dimulai dengan deklarasi tipe dokumen :"/>
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/doctype_html_dokumen_html_itu_sendiri_dimulai_dengan_html_dan_diakhiri_dengan_html"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bagian_yang_terlihat_dari_dokumen_html_adalah_antara_body_dan_body"
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text=" contoh : "
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+
+
+    <ImageView
+        android:layout_width="369dp"
+        android:layout_height="227dp"
+        android:src="@drawable/basichtml"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

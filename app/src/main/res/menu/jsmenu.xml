@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro_js"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Intro" />
+        <item
+            android:id="@+id/nav_output_js"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Output JS"/>
+        <item
+            android:id="@+id/nav_statements_js"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Statements JS"/>
+        <item
+            android:id="@+id/nav_Varibaels_JS"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="variabels JS"
+            />
+        <item
+            android:id="@+id/nav_Operators_js"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Operators JS"/>
+
+        <item
+            android:id="@+id/nav_datatypes_js"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Data Types JS"/>
+        <item
+            android:id="@+id/nav_functions_JS"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Functions JS"/>
+
+
+        <item
+            android:id="@+id/nav_syntax_JS"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Syntax JS"/>
+
+
+        <item
+            android:id="@+id/nav_IfElse_JS"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="IF ELSE JS"/>
+
+
+    </group>
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_c"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="intro" />
+        <item
+            android:id="@+id/nav_gallery_c"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Hello World" />
+        <item
+            android:id="@+id/nav_slideshow_c"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="If Else" />
+        <item
+            android:id="@+id/navNesetedIf_c"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Nested IF"
+            />
+        <item
+            android:id="@+id/navWhileDoWhile_c"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="While Do While"
+            />
+        <item
+            android:id="@+id/navForNestedFor_c"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="For Nested For"/>
+        <item
+            android:id="@+id/Array1Dimensi_c"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Array 1 Dimensi"
+            />
+    </group>
+</menu>

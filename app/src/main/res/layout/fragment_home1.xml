@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home1Fragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/programmer"
+            android:background="@color/black"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!--    conten -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1mm"
+        android:layout_marginBottom="3mm"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2mm">
+
+            <!--    ICON 1 -->
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2mm"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="1mm">
+
+                    <ImageView
+                        android:id="@+id/cplsplsgambar"
+                        android:layout_width="85dp"
+                        android:layout_height="112dp"
+                        android:src="@drawable/c_aktifity_gambar" />
+
+                    <TextView
+                        android:id="@+id/cplsplskonten"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="C++"/>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!--  ICON 2  -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="2mm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="1mm">
+
+                    <ImageView
+                        android:id="@+id/htmlgambar"
+                        android:layout_width="85dp"
+                        android:layout_height="112dp"
+                        android:src="@drawable/logohtml" />
+
+                    <TextView
+
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:id="@+id/texthtml"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAlignment="center"
+                        android:text="HTML"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!--  ICON 3  -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="2mm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="1mm">
+
+                    <ImageView
+                        android:id="@+id/cssgambar"
+                        android:layout_width="85dp"
+                        android:layout_height="112dp"
+                        android:src="@drawable/logocss" />
+
+                    <TextView
+
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:id="@+id/textCss"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CSS"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!--  ICON 4  -->
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1mm"
+    android:layout_marginBottom="1mm"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2mm"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_margin="2mm"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:padding="1mm">
+                <ImageView
+                    android:id="@+id/gambarjava"
+                    android:layout_width="85dp"
+                    android:layout_height="112dp"
+                    android:src="@drawable/java"/>
+
+                <TextView
+                    android:id="@+id/textjava"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:text="JAVA"/>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!--  ICON 5  -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="2mm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="1mm">
+                <ImageView
+                    android:id="@+id/gambarjs"
+                    android:layout_width="85dp"
+                    android:layout_height="112dp"
+                    android:src="@drawable/jslogo"/>
+
+                <TextView
+                    android:id="@+id/textjs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="JS"/>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!--  ICON 5  -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2mm"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="1mm">
+
+                <ImageView
+                    android:id="@+id/gambarphp"
+                    android:layout_width="85dp"
+                    android:layout_height="112dp"
+                    android:src="@drawable/phplogo" />
+
+                <TextView
+                    android:id="@+id/textphp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="PHP"/>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>

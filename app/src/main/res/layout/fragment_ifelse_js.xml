@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".javascriptAktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/jslogo" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    JavaScript if, else, and else if"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:text="Pernyataan bersyarat digunakan untuk melakukan tindakan yang berbeda berdasarkan kondisi yang berbeda."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Conditional Statements"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sangat sering saat Anda menulis kode, Anda ingin melakukan tindakan yang berbeda untuk keputusan yang berbeda."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:text="Anda dapat menggunakan pernyataan bersyarat dalam kode Anda untuk melakukan ini." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="        1. Dalam JavaScript kami memiliki pernyataan bersyarat berikut:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="        2. Gunakan ifuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang ditentukan benar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="        3. Gunakan elseuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang sama salah" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:text="        4. Gunakan else ifuntuk menentukan kondisi baru yang akan diuji, jika kondisi pertama salah" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:text="The if Statement"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:text="        Gunakan ifpernyataan untuk menentukan blok kode JavaScript yang akan dieksekusi jika suatu kondisi benar."/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:src="@drawable/ifelsejs" />
+
+    </LinearLayout>
+
+</FrameLayout>

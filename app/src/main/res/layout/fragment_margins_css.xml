@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cssAktifity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/logocss" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    CSS Margins : "
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Margin digunakan untuk menciptakan ruang di sekitar elemen, di luar batas yang ditentukan."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh :"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:src="@drawable/margincss" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="      Properti CSS margindigunakan untuk membuat ruang di sekitar elemen, di luar batas yang ditentukan.
+Dengan CSS, Anda memiliki kendali penuh atas margin. Ada properti untuk mengatur margin untuk setiap sisi elemen (atas, kanan, bawah, dan kiri)."/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Margin - Sisi Individu : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  CSS memiliki properti untuk menentukan margin untuk setiap sisi elemen:"
+            android:textSize="18dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   margin-top,margin-right,margin-bottom,margin-left"
+        android:textSize="18dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh :"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            android:src="@drawable/margincss3" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

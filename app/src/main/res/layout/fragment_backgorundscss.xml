@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cssAktifity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/logocss" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    CSS Backgrounds : "
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Properti latar belakang CSS digunakan untuk menambahkan efek latar belakang untuk elemen."/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:src="@drawable/backgroundscss" />
+<Space
+    android:layout_width="wrap_content"
+    android:layout_height="2mm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Backgrounds color CSS : "
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="      Properti background-colormenentukan warna latar belakang suatu elemen."/>
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    CSS Backgrounds Color "
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Anda dapat mengatur warna latar belakang untuk elemen HTML:"
+            android:textSize="18dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh :"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="95dp"
+            android:src="@drawable/backgroundscss3" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.solissa.iansolissa.ui.home1Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home1" />
+
+
+
+
+    <fragment
+        android:id="@+id/nav_IfElse_java"
+        android:name="com.solissa.iansolissa.ifelsejava"
+        android:label="IF ELSE Java"
+        tools:layout="@layout/fragment_ifelsejava"/>
+
+    <fragment
+        android:id="@+id/nav_Switch_java"
+        android:name="com.solissa.iansolissa.switchjava"
+        android:label="Switch Java"
+        tools:layout="@layout/fragment_switchjava"/>
+
+    <fragment
+        android:id="@+id/nav_functions_JS"
+        android:name="com.solissa.iansolissa.functionsJs"
+        tools:layout="@layout/fragment_functions_js"
+        android:label="Function Js"/>
+
+    <fragment
+    android:id="@+id/nav_syntax_java"
+        android:name="com.solissa.iansolissa.javasyntax"
+        tools:layout="@layout/fragment_javasyntax"
+        android:label="Syntax Java"
+        />
+    <fragment
+        android:id="@+id/nav_datatypes_java"
+        android:name="com.solissa.iansolissa.datatypesjava"
+        tools:layout="@layout/fragment_datatypesjava"
+        android:label="Data Types Java"
+        />
+    <fragment
+        android:id="@+id/nav_IfElse_JS"
+        android:name="com.solissa.iansolissa.ifelseJs"
+        android:label="IF ELSE Java Script"
+        tools:layout="@layout/fragment_ifelse_js"/>
+    <fragment
+        android:id="@+id/nav_statements_js"
+        android:name="com.solissa.iansolissa.statementsJs"
+        android:label="Statements Java Script"
+        tools:layout="@layout/fragment_statements_js"/>
+    <fragment
+        android:id="@+id/nav_IfElse_php"
+        android:name="com.solissa.iansolissa.IfElsePhp"
+        android:label="IF ELSE PHP"
+        tools:layout="@layout/fragment_if_else_php"/>
+        />
+</navigation>

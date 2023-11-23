@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HTMLlAktifitas">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:src="@drawable/logohtml"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="     HTML Element : "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    The HTML element is everything from the start tag to the end tag."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tagname_content_goes_here_tagname"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="   Examples of some HTML elements:"/>
+<Space
+    android:layout_width="wrap_content"
+    android:layout_height="2mm"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:layout_gravity="top"
+        android:src="@drawable/element" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="       Nested HTML Elements : "/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/html_elements_can_be_nested_this_means_that_elements_can_contain_other_elements_all_html_documents_consist_of_nested_html_elements_the_following_example_contains_four_html_elements_html_body_h1_and_p"/>
+</LinearLayout>

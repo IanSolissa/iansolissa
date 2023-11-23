@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".javaAktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/java" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Java Syntax"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Contoh : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="135dp"
+            android:src="@drawable/sintaksjava" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:text="   Contoh dijelaskan : "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setiap baris kode yang berjalan di Java harus berada di dalam file class. Dalam contoh kami, kami menamai kelas Main . Kelas harus selalu dimulai dengan huruf besar pertama."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Catatan: Java bersifat case-sensitive: MyClass dan myclass memiliki arti yang berbeda."
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama file java harus sesuai dengan nama kelasnya. Saat menyimpan file, simpan menggunakan nama kelas dan tambahkan .java di akhir nama file. Untuk menjalankan contoh di atas pada komputer Anda, pastikan Java terinstal dengan benar: Buka Bab Memulai untuk mengetahui cara menginstal Java. Outputnya harus: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   The main Method"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="Metode main()ini diperlukan dan Anda akan melihatnya di setiap program Java:"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:src="@drawable/sintaksjava2" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phpaktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+            android:src="@drawable/phplogo" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    PHP if...else...elseif Statements"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Pernyataan bersyarat digunakan untuk melakukan tindakan yang berbeda berdasarkan kondisi yang berbeda."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    PHP Conditional Statements"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:text="Sangat sering saat Anda menulis kode, Anda ingin melakukan tindakan yang berbeda untuk kondisi yang berbeda. Anda dapat menggunakan pernyataan bersyarat dalam kode Anda untuk melakukan ini.
+Di PHP kami memiliki pernyataan bersyarat berikut:"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      ifpernyataan - mengeksekusi beberapa kode jika satu kondisi benar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      if...elsepernyataan - mengeksekusi beberapa kode jika suatu kondisi benar dan kode lain jika kondisi itu salah"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      if...elseif...elsepernyataan - mengeksekusi kode yang berbeda untuk lebih dari dua kondisi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      switchpernyataan - memilih salah satu dari banyak blok kode yang akan dieksekusi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     PHP - The if Statement"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Pernyataan if mengeksekusi beberapa kode jika satu kondisi benar."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh:"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:src="@drawable/phpifelse" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

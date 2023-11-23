@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phpaktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+            android:src="@drawable/phplogo" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    PHP Data Types"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Variabel dapat menyimpan data dari tipe yang berbeda, dan tipe data yang berbeda dapat melakukan hal yang berbeda.PHP mendukung tipe data berikut:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    String, Integer,Float (floating point numbers - also called double) , Boolean,Array,Object,NULL,Resource"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    PHP String"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      String adalah urutan karakter, seperti (Halo dunia!).String dapat berupa teks apa pun di dalam tanda kutip. Anda dapat menggunakan tanda kutip tunggal atau ganda:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Contoh :"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="154dp"
+            android:src="@drawable/phptypedata" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     PHP Integer"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Tipe data integer adalah angka non-desimal antara -2.147.483.648 dan 2.147.483.647.Aturan untuk bilangan bulat:  "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Bilangan bulat harus memiliki setidaknya satu digit,Bilangan bulat tidak boleh memiliki titik desimal.Bilangan bulat dapat berupa positif atau negatif,Bilangan bulat dapat ditentukan dalam: notasi desimal (basis 10), heksadesimal (basis 16), oktal (basis 8), atau biner (basis 2),Dalam contoh berikut $x adalah bilangan bulat. Fungsi PHP var_dump() mengembalikan tipe dan nilai data: "/>
+
+    </LinearLayout>
+
+</FrameLayout>

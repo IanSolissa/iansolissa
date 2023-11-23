@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation5"
+    app:startDestination="@+id/nav_intro_css">
+
+    <fragment
+        android:id="@+id/nav_intro_css"
+        android:name="com.solissa.iansolissa.introCss"
+        android:label="Intro"
+        tools:layout="@layout/fragment_intro_css" />
+
+    <fragment
+        android:id="@+id/nav_sintaks_css"
+        android:name="com.solissa.iansolissa.sintakscssfragment"
+        android:label="Sintaks CSS"
+        tools:layout="@layout/fragment_sintakscssfragment" />
+
+<fragment
+    android:id="@+id/nav_selector_css"
+    android:name="com.solissa.iansolissa.CSSSelectors"
+    android:label="CSS Selectors"
+    tools:layout="@layout/fragment_c_s_s_selectors"/>
+
+
+<fragment
+    android:id="@+id/nav_color_css"
+    android:name="com.solissa.iansolissa.csscolor"
+    android:label="Color CSS"
+    tools:layout="@layout/fragment_csscolor"/>
+
+
+
+
+
+    <fragment
+        android:id="@+id/nav_Backgrund_css"
+        android:name="com.solissa.iansolissa.Backgorundscss"
+        android:label="Backgrounds CSS"
+        tools:layout="@layout/fragment_backgorundscss"/>
+    <!--    here-->
+    <fragment
+        android:label="Borders CSS"
+        android:name="com.solissa.iansolissa.bordersCss"
+        android:id="@+id/nav_Borders_css"
+        tools:layout="@layout/fragment_borders_css"
+        />
+
+<fragment
+android:label="Margins CSS"
+    android:name="com.solissa.iansolissa.MarginsCss"
+    android:id="@+id/nav_margins_css"
+    tools:layout="@layout/fragment_margins_css"
+    />
+
+
+</navigation>

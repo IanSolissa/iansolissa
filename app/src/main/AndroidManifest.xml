@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Iansolissa"
+        tools:targetApi="31">
+        <activity
+            android:name=".javaAktifity"
+            android:exported="true"
+            android:label="@string/title_activity_java_aktifity"
+            android:theme="@style/Theme.Iansolissa.NoActionBar">
+
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".javascriptAktifity"
+            android:exported="true"
+            android:label="@string/title_activity_javascript_aktifity"
+            android:theme="@style/Theme.Iansolissa.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".phpaktifity"
+            android:exported="true"
+            android:label="@string/title_activity_phpaktifity"
+            android:theme="@style/Theme.Iansolissa.NoActionBar">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cssAktifity"
+            android:exported="true"
+            android:label="@string/title_activity_css_aktifity"
+            android:theme="@style/Theme.Iansolissa.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HTMLlAktifitas"
+            android:exported="true"
+            android:label="@string/title_activity_htmll_aktifitas"
+            android:theme="@style/Theme.Iansolissa.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CplsplsaktifitasActivity"
+            android:exported="true"
+            android:label="@string/title_activity_cplsplsaktifitas"
+            android:theme="@style/Theme.Iansolissa.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".c_aktifity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".crud2"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".crud1"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".navigasi"
+            android:exported="true"
+            android:label="@string/title_activity_navigasi"
+            android:theme="@style/Theme.Iansolissa.NoActionBar">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

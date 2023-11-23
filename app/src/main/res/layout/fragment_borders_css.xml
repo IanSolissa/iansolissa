@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cssAktifity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/logocss" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    CSS Borders : "
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Properti perbatasan CSS memungkinkan Anda menentukan gaya, lebar, dan warna perbatasan elemen."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh :"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:src="@drawable/contohbordercss" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    CSS Border Style : "
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="      Properti border-stylemenentukan jenis batas yang akan ditampilkan.
+Nilai berikut diperbolehkan:"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    CSS Backgrounds Color "
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:textSize="15dp"
+            android:text="dotted- Mendefinisikan perbatasan bertitik
+dashed- Mendefinisikan perbatasan putus-putus
+solid- Mendefinisikan perbatasan yang solid
+double- Mendefinisikan perbatasan ganda
+groove- Mendefinisikan perbatasan berlekuk 3D. Efeknya tergantung pada nilai warna batas
+ridge- Mendefinisikan perbatasan bergerigi 3D. Efeknya tergantung pada nilai warna batas
+inset- Menentukan perbatasan sisipan 3D. Efeknya tergantung pada nilai warna batas
+outset- Menentukan batas awal 3D. Efeknya tergantung pada nilai warna batas
+none- Mendefinisikan tanpa batas
+hidden- Mendefinisikan perbatasan tersembunyi"
+            />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

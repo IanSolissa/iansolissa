@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro_java2"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Intro" />
+        <item
+            android:id="@+id/nav_syntax_java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Syntax Java"/>
+        <item
+            android:id="@+id/nav_output_java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Output Java"/>
+        <item
+            android:id="@+id/nav_Varibaels_Java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Variabels Java"
+            />
+        <item
+            android:id="@+id/nav_datatypes_java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Data types Java"/>
+
+        <item
+            android:id="@+id/nav_Operators_java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Operators Java"/>
+        <item
+            android:id="@+id/nav_IfElse_java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="IF ELSE Java"/>
+
+        <item
+        android:id="@+id/nav_Switch_java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Switch Java"/>
+
+    </group>
+</menu>

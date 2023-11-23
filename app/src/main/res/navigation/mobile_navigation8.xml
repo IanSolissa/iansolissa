@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation8"
+    app:startDestination="@id/nav_intro_java2">
+
+    <fragment
+      android:id="@+id/nav_intro_java2"
+android:name="com.solissa.iansolissa.javaintro3"
+        android:label="Intro"
+    tools:layout="@layout/fragment_javaintro3"/>
+
+
+    <fragment
+        android:id="@+id/nav_syntax_java"
+        android:name="com.solissa.iansolissa.javasyntax"
+        android:label="Syntax Java"
+        tools:layout="@layout/fragment_javasyntax"/>
+
+    <fragment
+        android:id="@+id/nav_output_java"
+        android:name="com.solissa.iansolissa.outputjava"
+        android:label="Output Java"
+        tools:layout="@layout/fragment_outputjava"/>
+
+
+    <fragment
+        android:id="@+id/nav_Varibaels_Java"
+        android:name="com.solissa.iansolissa.javavariabels"
+        android:label="Variabels Java"
+        tools:layout="@layout/fragment_javavariabels"/>
+
+
+    <fragment
+        android:id="@+id/nav_datatypes_java"
+        android:name="com.solissa.iansolissa.datatypesjava"
+        android:label="Data Types Java"
+        tools:layout="@layout/fragment_datatypesjava"/>
+    <fragment
+        android:id="@+id/nav_Operators_java"
+        android:name="com.solissa.iansolissa.operatorsjava"
+        android:label="Operators Java"
+        tools:layout="@layout/fragment_operatorsjava"/>
+
+
+    <fragment
+    android:id="@+id/nav_IfElse_java"
+android:name="com.solissa.iansolissa.ifelsejava"
+        android:label="IF ELSE Java"
+        tools:layout="@layout/fragment_ifelsejava"/>
+
+    <fragment
+        android:id="@+id/nav_Switch_java"
+        android:name="com.solissa.iansolissa.switchjava"
+        android:label="Switch Java"
+        tools:layout="@layout/fragment_switchjava"/>
+
+
+</navigation>

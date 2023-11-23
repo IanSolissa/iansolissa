@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation6"
+    app:startDestination="@+id/nav_intro_php">
+
+    <fragment
+        android:id="@+id/nav_intro_php"
+      android:name="com.solissa.iansolissa.introphp"
+        android:label="Intro"
+        tools:layout="@layout/fragment_introphp" />
+
+    <fragment
+        android:id="@+id/nav_syntax_php"
+        android:name="com.solissa.iansolissa.syntaxPhp"
+        android:label="Syntax"
+        tools:layout="@layout/fragment_syntax_php" />
+
+    <fragment
+        android:id="@+id/nav_Varibaels_php"
+        android:name="com.solissa.iansolissa.variabelsPhp"
+        android:label="variabels"
+        tools:layout="@layout/fragment_variabels_php" />
+
+    <fragment
+        android:id="@+id/nav_datatypes_php"
+        android:name="com.solissa.iansolissa.DataTypesPhp"
+        android:label="Data Type"
+        tools:layout="@layout/fragment_data_types_php" />
+    <fragment
+        android:id="@+id/nav_Strings_php"
+        android:name="com.solissa.iansolissa.StringsPhp"
+        android:label="Strings"
+        tools:layout="@layout/fragment_strings_php"/>
+    <fragment
+        android:id="@+id/nav_IfElse_php"
+        android:name="com.solissa.iansolissa.IfElsePhp"
+        android:label="IF ELSE"
+        tools:layout="@layout/fragment_if_else_php"/>
+
+    <fragment
+        android:id="@+id/nav_Switch_php"
+        android:name="com.solissa.iansolissa.SwitchPhp"
+        android:label="Switch"
+        tools:layout="@layout/fragment_switch_php" />
+    <fragment
+        android:id="@+id/nav_functions_php"
+        android:name="com.solissa.iansolissa.FunctionPhp"
+        android:label="Function"
+        tools:layout="@layout/fragment_function_php"
+        />
+
+
+
+
+
+
+</navigation>

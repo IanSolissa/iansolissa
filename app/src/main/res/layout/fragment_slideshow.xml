@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+
+        tools:context=".c_aktifity">
+        <ImageView
+            android:layout_marginTop="2mm"
+            android:layout_width="match_parent"
+            android:layout_height="20mm"
+            android:src="@drawable/c_aktifity_gambar"
+            />
+
+        <!--    konten 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#48A5A3A3"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:text="Fungsi IF Else dalam bahasa pemograman C++ adalah suatu fungsi yang mengeksekusi atau menjalan suatu program apa bisa suatu kondisi atau persyaratan terpenuhi maka program tersebut atau perintah tersebut di jalankan, tetapi apabila kondisi atau syaratnya tidak terpenuhi maka disinilah fungsi dari else tersebut." />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="2mm"/>
+
+
+                <ImageView
+                    android:layout_width="437dp"
+                    android:layout_height="325dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ifelse" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="2mm"/>
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latihan :"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Membuat program sederhana jika variabel A lebih besar dari variabel B maka tampilkan kata benar"
+                    />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

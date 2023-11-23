@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Intro" />
+        <item
+            android:id="@+id/nav_syntax_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Syntax php"/>
+        <item
+            android:id="@+id/nav_Varibaels_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Variabels php"/>
+        <item
+            android:id="@+id/nav_datatypes_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Data Types"
+            />
+        <item
+            android:id="@+id/nav_Strings_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Strings"/>
+
+        <item
+            android:id="@+id/nav_IfElse_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="If Else"/>
+        <item
+            android:id="@+id/nav_Switch_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Switch php"/>
+
+
+        <item
+            android:id="@+id/nav_functions_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Functions"/>
+
+    </group>
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".javascriptAktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/jslogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    JavaScript Statements"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/statementsjs"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     JavaScript Programs"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:text="      Program komputer adalah daftar instruksi yang akan dijalankan oleh komputer.
+Dalam bahasa pemrograman, instruksi pemrograman ini disebut pernyataan .
+Sebuah program JavaScript adalah daftar pernyataan pemrograman ."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      JavaScript Statements"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Pernyataan JavaScript terdiri dari:
+Nilai, Operator, Ekspresi, Kata Kunci, dan Komentar.
+Pernyataan ini memberitahu browser untuk menulis Hello Dolly. di dalam elemen HTML dengan id=demo:"/>
+        />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh :"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:src="@drawable/statementsjs2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+           android:text="Sebagian besar program JavaScript berisi banyak pernyataan JavaScript.
+Pernyataan dieksekusi, satu per satu, dalam urutan yang sama seperti yang tertulis."/>
+
+    </LinearLayout>
+
+</FrameLayout>

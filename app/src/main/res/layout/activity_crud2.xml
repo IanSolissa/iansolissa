@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crud2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="2mm"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="4mm"
+                    android:src="@drawable/logo_s2" />
+
+
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edittextemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2mm"
+                android:hint="Project"
+                android:inputType="textAutoCorrect" />
+
+            <EditText
+                android:id="@+id/edittextpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2mm"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+
+            <TextView
+
+                android:id="@+id/hargaproject"
+                android:layout_margin="2mm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:hint="harga : Rp.500.000.00"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:id="@+id/btnsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2mm"
+                android:text="Selesai"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

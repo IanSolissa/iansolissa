@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phpaktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+            android:src="@drawable/phplogo" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    PHP switch Statement"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Pernyataan switchitu digunakan untuk melakukan tindakan yang berbeda berdasarkan kondisi yang berbeda."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    The PHP switch Statement"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Gunakan switchpernyataan untuk memilih salah satu dari banyak blok kode yang akan dieksekusi ."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Sintaks"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:src="@drawable/switchphp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Begini cara kerjanya: Pertama kita memiliki satu ekspresi n (paling sering berupa variabel), yang dievaluasi sekali. Nilai ekspresi kemudian dibandingkan dengan nilai untuk setiap kasus dalam struktur. Jika ada kecocokan, blok kode yang terkait dengan kasus tersebut akan dijalankan. Gunakan breakuntuk mencegah kode berjalan ke kasus berikutnya secara otomatis. Pernyataan defaultini digunakan jika tidak ditemukan kecocokan."/>
+
+    </LinearLayout>
+
+</FrameLayout>

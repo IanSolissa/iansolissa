@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".c_aktifity">
+    <ImageView
+        android:layout_marginTop="2mm"
+        android:layout_width="match_parent"
+        android:layout_height="20mm"
+        android:src="@drawable/c_aktifity_gambar"
+       />
+
+<!--    konten 1 -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     app:cardBackgroundColor="#48A5A3A3"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:orientation="vertical"
+            >
+    <TextView
+        android:textSize="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textFontWeight="100"
+        android:text="Apa itu C++?"
+        android:layout_marginStart="2mm"
+        android:layout_marginTop="5mm"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15dp"
+    android:text="     C ++ adalah bahasa lintas platform yang dapat digunakan untuk membuat aplikasi berkinerja tinggi."
+    android:layout_marginStart="1mm"
+    android:textColor="@color/black"
+    />
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:text="C++ dikembangkan oleh Bjarne Stroustrup, sebagai perpanjangan dari bahasa C."
+        android:layout_marginStart="1mm"
+        android:textColor="@color/black" />
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C ++ memberi pemrogram kontrol tingkat tinggi atas sumber daya sistem dan memori."
+        android:layout_marginStart="1mm"
+        android:textColor="@color/black" />
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahasa ini diperbarui 4 kali pada tahun 2011, 2014, 2017, dan 2020 ke C++11, C++14, C++17, C++20."
+        android:layout_marginStart="1mm"
+        android:textColor="@color/black" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="2mm"/>
+
+<!--          KONTEN KE 2  -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#48A5A3A3">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                   android:textSize="21dp"
+                        android:text="Mengapa Menggunakan C++"
+                        android:layout_marginStart="2mm"
+                        android:layout_marginTop="2mm"
+                        android:layout_marginBottom="1mm"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C ++ adalah salah satu bahasa pemrograman paling populer di dunia."
+                        android:layout_marginStart="1mm"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C ++ dapat ditemukan di sistem operasi saat ini, Antarmuka Pengguna Grafis, dan sistem tertanam."
+                        android:layout_marginStart="1mm"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C ++ adalah bahasa pemrograman berorientasi objek yang memberikan struktur yang jelas pada program dan memungkinkan kode untuk digunakan kembali, menurunkan biaya pengembangan."
+                        android:layout_marginStart="1mm"
+                        android:textColor="@color/black" />
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+app:cardBackgroundColor="#48A5A3A3"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perbedaan antara C dan C++"
+            android:layout_marginTop="3mm"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:layout_marginStart="2mm"
+            />
+        <TextView
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    C++ dikembangkan sebagai perpanjangan dari C , dan kedua bahasa tersebut memiliki sintaks yang hampir sama."
+            android:layout_marginStart="1mm"
+            android:textColor="@color/black" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

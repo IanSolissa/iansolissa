@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".javaAktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/java" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Java Variables"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:transitionName="Variabel adalah wadah untuk menyimpan nilai data.
+Di Java, ada berbagai jenis variabel, misalnya:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="String- menyimpan teks, seperti Halo. Nilai string dikelilingi oleh tanda kutip ganda"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="int- menyimpan bilangan bulat (bilangan bulat), tanpa desimal, seperti 123 atau -123"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="float- menyimpan angka floating point, dengan desimal, seperti 19,99 atau -19,99"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jchar- menyimpan karakter tunggal, seperti 'a' atau 'B'. Nilai karakter dikelilingi oleh tanda kutip tunggal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="boolean- menyimpan nilai dengan dua status: benar atau salah"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Mendeklarasikan (Membuat) Variabel"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:text="Untuk membuat variabel, Anda harus menentukan jenisnya dan memberinya nilai:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Sintaks"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:src="@drawable/variabelsjava" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:text="Di mana type adalah salah satu tipe Java (seperti intor String), dan variableName adalah nama variabel (seperti x atau name ). Tanda sama dengan digunakan untuk menetapkan nilai ke variabel." />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Untuk membuat variabel yang harus menyimpan teks, lihat contoh berikut:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/variabelsjava3" />
+
+    </LinearLayout>
+
+</FrameLayout>

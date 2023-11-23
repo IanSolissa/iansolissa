@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation7"
+    app:startDestination="@+id/nav_intro_js">
+
+    <fragment
+        android:id="@+id/nav_intro_js"
+        android:name="com.solissa.iansolissa.introJs"
+        android:label="Intro"
+        tools:layout="@layout/fragment_intro_js" />
+
+    <fragment
+        android:id="@+id/nav_output_js"
+        android:name="com.solissa.iansolissa.outputJs"
+        android:label="Output JS"
+        tools:layout="@layout/fragment_output_js" />
+
+    <fragment
+        android:id="@+id/nav_statements_js"
+        android:name="com.solissa.iansolissa.statementsJs"
+        android:label="Statements JS"
+        tools:layout="@layout/fragment_statements_js" />
+
+    <fragment
+        android:id="@+id/nav_Varibaels_JS"
+        android:name="com.solissa.iansolissa.variabelsJs"
+        android:label="Variabels JS"
+        tools:layout="@layout/fragment_variabels_js" />
+
+    <fragment
+        android:id="@+id/nav_Operators_js"
+        android:name="com.solissa.iansolissa.operatorsJs"
+        android:label="Operators JS"
+        tools:layout="@layout/fragment_operators_js" />
+
+    <fragment
+        android:id="@+id/nav_datatypes_js"
+        android:name="com.solissa.iansolissa.datatypesJs"
+        android:label="Data Types JS"
+        tools:layout="@layout/fragment_datatypes_js" />
+
+
+    <fragment
+        android:id="@+id/nav_functions_JS"
+        android:name="com.solissa.iansolissa.functionsJs"
+        android:label="Functions JS"
+        tools:layout="@layout/fragment_functions_js" />
+
+    <fragment
+        android:id="@+id/nav_syntax_JS"
+        android:name="com.solissa.iansolissa.syntaxJs"
+        android:label="Syntax JS"
+        tools:layout="@layout/fragment_syntax_js" />
+
+    <fragment
+        android:id="@+id/nav_IfElse_JS"
+        android:name="com.solissa.iansolissa.ifelseJs"
+        android:label="IF ELSE JS"
+        tools:layout="@layout/fragment_ifelse_js" />
+</navigation>

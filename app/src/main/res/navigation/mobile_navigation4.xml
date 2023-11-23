@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation4"
+    app:startDestination="@+id/nav_intro_html">
+
+<fragment
+    android:id="@+id/nav_intro_html"
+    android:name="com.solissa.iansolissa.introhtml"
+    android:label="intro"
+    tools:layout="@layout/fragment_introhtml"/>
+    <fragment
+        android:id="@+id/nav_basic_html"
+        android:name="com.solissa.iansolissa.BasicHtml"
+        android:label="basic"
+        tools:layout="@layout/fragment_basic_html"
+        />
+    <fragment
+        android:id="@+id/nav_element_html"
+        android:name="com.solissa.iansolissa.elementHtml"
+        tools:layout="@layout/fragment_element_html"
+        android:label=" HTML Element"/>
+    <fragment
+        android:id="@+id/nav_atribut_html"
+        android:name="com.solissa.iansolissa.HTMLAttributes"
+        tools:layout="@layout/fragment_h_t_m_l_attributes"
+        android:label=" HTML Atribut"/>
+    <fragment
+        android:id="@+id/nav_heading_html"
+        android:name="com.solissa.iansolissa.headingHtml"
+        tools:layout="@layout/fragment_heading_html"
+        android:label="Heading Html"/>
+
+</navigation>

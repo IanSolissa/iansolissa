@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".javascriptAktifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/jslogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   JavaScript Output"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:transitionName="JavaScript Display Possibilities"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JavaScript dapat menampilkan data dengan berbagai cara:"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:text=" Menulis ke elemen HTML, menggunakan innerHTML.
+        Menulis ke output HTML menggunakan document.write().
+        Menulis ke dalam kotak peringatan, menggunakan window.alert().
+        Menulis ke konsol browser, menggunakan console.log()."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Menggunakan innerHTML :"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+          android:text="Untuk mengakses elemen HTML, JavaScript dapat menggunakan document.getElementById(id)metode tersebut.Atribut idmendefinisikan elemen HTML. Properti innerHTML mendefinisikan konten HTML:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Contoh"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="304dp"
+            android:layout_height="226dp"
+            android:src="@drawable/outputjs" />
+
+    </LinearLayout>
+
+</FrameLayout>

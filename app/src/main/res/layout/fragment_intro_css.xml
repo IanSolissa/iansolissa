@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cssAktifity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="20mm"
+       android:src="@drawable/logocss" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:textStyle="bold"
+       android:textColor="@color/black"
+       android:textSize="20dp"
+      android:text="    Introduction : "
+       />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="    CSS adalah bahasa yang kami gunakan untuk menata halaman Web."
+         />
+
+
+      <TextView
+
+          android:textColor="@color/black"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textSize="20dp"
+          android:text="    Apa itu CSS?  "
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="     CSS adalah singkatan dari Cascading Style Sheets
+CSS menjelaskan bagaimana elemen HTML ditampilkan di layar, kertas, atau di media lain
+CSS menghemat banyak pekerjaan. Itu dapat mengontrol tata letak beberapa halaman web sekaligus
+Stylesheet eksternal disimpan dalam file CSS"
+          />
+
+      <Space
+          android:layout_width="wrap_content"
+          android:layout_height="2mm"/>
+
+      <TextView
+
+          android:textColor="@color/black"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:text="     Demo CSS - Satu Halaman HTML - Banyak Gaya"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="Di sini kami akan menampilkan satu halaman HTML yang ditampilkan dengan empat stylesheet yang berbeda. Klik pada link Stylesheet 1, Stylesheet 2, Stylesheet 3, Stylesheet 4 di bawah untuk melihat gaya yang berbeda: "/>
+<Space
+    android:layout_width="wrap_content"
+    android:layout_height="2mm"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="290dp"
+          android:src="@drawable/csscontoh" />
+
+   </LinearLayout>
+
+</FrameLayout>

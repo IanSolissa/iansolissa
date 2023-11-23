@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cssAktifity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20mm"
+            android:src="@drawable/logocss" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="    CSS Syntax"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    CSS adalah bahasa yang kami gunakan untuk menata halaman Web."
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="109dp"
+            android:src="@drawable/sintaks"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="    Pemilih menunjuk ke elemen HTML yang ingin Anda gaya.
+Blok deklarasi berisi satu atau lebih deklarasi yang dipisahkan oleh titik koma.
+Setiap deklarasi menyertakan nama properti CSS dan nilai, yang dipisahkan oleh titik dua.
+Beberapa deklarasi CSS dipisahkan dengan titik koma, dan blok deklarasi diapit oleh kurung kurawal."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="    Contoh :"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2mm"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sintaks2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="   Contoh Dijelaskan"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="1mm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="@string/padalah_pemilih_dalam_css_menunjuk_ke_elemen_html_yang_ingin_anda_gaya_p_coloradalah_properti_dan_redadalah_nilai_properti_text_alignadalah_properti_dan_centeradalah_nilai_properti"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

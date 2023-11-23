@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+
+<item
+    android:id="@+id/nav_IfElse_java"
+    android:icon="@drawable/ic_baseline_menu_book_24"
+    android:title="IF ELSE JAVA"
+    />
+
+        <item
+            android:id="@+id/nav_Switch_java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Switch java"/>
+
+
+        <item
+            android:id="@+id/nav_functions_JS"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Function Java Script"/>
+<item
+    android:id="@+id/nav_syntax_java"
+    android:icon="@drawable/ic_baseline_menu_book_24"
+    android:title="syntax java"
+    />
+        <item
+android:id="@+id/nav_datatypes_java"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Data Types Java"
+            />
+
+        <item
+            android:id="@+id/nav_IfElse_JS"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="IF ELSE Java Script"
+            />
+        <item
+            android:id="@+id/nav_statements_js"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Statements Java Script"
+            />
+        <item
+            android:id="@+id/nav_IfElse_php"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="IF ELSE php"/>
+    </group>
+</menu>

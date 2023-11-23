@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro_html"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Intro" />
+        <item
+            android:id="@+id/nav_basic_html"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Basic"/>
+        <item
+            android:id="@+id/nav_element_html"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Element"/>
+        <item
+            android:id="@+id/nav_atribut_html"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Atribut HTML"/>
+        <item
+            android:id="@+id/nav_heading_html"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Heading Html"/>
+
+    </group>
+</menu>

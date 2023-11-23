@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">iansolissa</string>
+    <string name="title_activity_navigasi">navigasi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Solissa Programmer</string>
+    <string name="nav_header_subtitle">pengguna@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_Learn">Learn</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    <string name="menu_profile">Profile</string>
+    <string name="project">project</string>
+    <string name="title_activity_caktifitas">caktifitas</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="title_activity_cplsplsaktifitas">cplsplsaktifitas</string>
+    <string name="title_activity_html_aktifity">htmlAktifity</string>
+    <string name="title_activity_htmll_aktifitas">HTMLlAktifitas</string>
+    <string name="doctype_html_dokumen_html_itu_sendiri_dimulai_dengan_html_dan_diakhiri_dengan_html"><![CDATA[<!DOCTYPE html>.Dokumen HTML itu sendiri dimulai dengan <html>dan diakhiri dengan </html>.]]></string>
+    <string name="bagian_yang_terlihat_dari_dokumen_html_adalah_antara_body_dan_body"><![CDATA[Bagian yang terlihat dari dokumen HTML adalah antara <body>dan </body>.]]></string>
+    <string name="tagname_content_goes_here_tagname"><![CDATA[<tagname>Content goes here...</tagname>]]></string>
+    <string name="html_elements_can_be_nested_this_means_that_elements_can_contain_other_elements_all_html_documents_consist_of_nested_html_elements_the_following_example_contains_four_html_elements_html_body_h1_and_p"><![CDATA[HTML elements can be nested (this means that elements can contain other elements). All HTML documents consist of nested HTML elements. The following example contains four HTML elements (<html>, <body>, <h1> and <p>):]]></string>
+    <string name="a_mendefinisikan_hyperlink_atribut_hrefmenentukan_url_halaman_yang_dituju_tautan"><![CDATA[<a>mendefinisikan hyperlink. Atribut hrefmenentukan URL halaman yang dituju tautan:]]></string>
+    <string name="tag_img_digunakan_untuk_menyematkan_gambar_di_halaman_html_atribut_srcmenentukan_jalur_ke_gambar_yang_akan_ditampilkan"><![CDATA[Tag <img>digunakan untuk menyematkan gambar di halaman HTML. Atribut srcmenentukan jalur ke gambar yang akan ditampilkan:]]></string>
+    <string name="tag_img_juga_harus_berisi_atribut_widthdan_height_yang_menentukan_lebar_dan_tinggi_gambar_dalam_piksel"><![CDATA[Tag <img>juga harus berisi atribut widthdan height, yang menentukan lebar dan tinggi gambar (dalam piksel):]]></string>
+    <string name="didefinisikan_dengan_tag_h1_to_h6_h1_mendefinisikan_judul_yang_paling_penting_h6_mendefinisikan_heading_yang_paling_tidak_penting"><![CDATA[didefinisikan dengan tag <h1>to .<h6> <h1>mendefinisikan judul yang paling penting. <h6>mendefinisikan heading yang paling tidak penting.]]></string>
+    <string name="elemen_html_p_mendefinisikan_sebuah_paragraf"><![CDATA[Elemen HTML <p>mendefinisikan sebuah paragraf.]]></string>
+    <string name="title_activity_css_aktifity">cssAktifity</string>
+    <string name="title_activity_sintakscss">Sintakscss</string>
+    <string name="di_sini_semua_elemen_p_pada_halaman_akan_rata_tengah_dengan_warna_teks_merah"><![CDATA[Di sini, semua elemen <p> pada halaman akan rata tengah, dengan warna teks merah:]]></string>
+    <string name="padalah_pemilih_dalam_css_menunjuk_ke_elemen_html_yang_ingin_anda_gaya_p_coloradalah_properti_dan_redadalah_nilai_properti_text_alignadalah_properti_dan_centeradalah_nilai_properti"><![CDATA[padalah pemilih dalam CSS (menunjuk ke elemen HTML yang ingin Anda gaya: <p>). coloradalah properti, dan redadalah nilai properti text-alignadalah properti, dan centeradalah nilai properti]]></string>
+    <string name="title_activity_phpaktifity">phpaktifity</string>
+    <string name="skrip_php_dijalankan_di_server_dan_hasil_html_biasa_dikirim_kembali_ke_browser">Skrip PHP dijalankan di server, dan hasil HTML biasa dikirim kembali ke browser.</string>
+    <string name="skrip_php_dimulai_dengan_phpdan_diakhiri_dengan"><![CDATA[Skrip PHP dimulai dengan <?phpdan diakhiri dengan ?>:]]></string>
+    <string name="title_activity_javascript_aktifity">javascriptAktifity</string>
+    <string name="title_activity_java_aktifity">javaAktifity</string>
+    <string name="kurang_dari_a_b"><![CDATA[Kurang dari: a < b]]></string>
+    <string name="kurang_dari_atau_sama_dengan_a_b"><![CDATA[Kurang dari atau sama dengan: a <= b]]></string>
+
+
+</resources>

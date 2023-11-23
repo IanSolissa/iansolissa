@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro_css"
+         android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Intro" />
+        <item
+            android:id="@+id/nav_sintaks_css"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Sintaks CSS"/>
+        <item
+            android:id="@+id/nav_selector_css"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="CSS Selectors"/>
+       <item
+           android:id="@+id/nav_color_css"
+           android:icon="@drawable/ic_baseline_menu_book_24"
+           android:title="Color CSS"
+           />
+<item
+    android:id="@+id/nav_Backgrund_css"
+    android:icon="@drawable/ic_baseline_menu_book_24"
+    android:title="Background CSS"/>
+
+        <item
+            android:id="@+id/nav_Borders_css"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Borders CSS"/>
+<item
+    android:id="@+id/nav_margins_css"
+    android:icon="@drawable/ic_baseline_menu_book_24"
+    android:title="Margins CSS"/>
+
+
+    </group>
+</menu>

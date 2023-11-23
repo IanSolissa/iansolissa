@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HTMLlAktifitas">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:src="@drawable/logohtml"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="     HTML HEADING: "/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   contoh : "/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:src="@drawable/headinghtml" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Heading HTML : "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/didefinisikan_dengan_tag_h1_to_h6_h1_mendefinisikan_judul_yang_paling_penting_h6_mendefinisikan_heading_yang_paling_tidak_penting"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="101dp"
+        android:src="@drawable/headinghtml2"/>
+</LinearLayout>

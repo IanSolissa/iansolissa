@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HTMLlAktifitas">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:src="@drawable/logohtml"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="     HTML Attributes : "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Semua elemen HTML dapat memiliki atribut
+Atribut memberikan informasi tambahan tentang elemen
+Atribut selalu ditentukan dalam tag awal
+Atribut biasanya berupa pasangan nama/nilai "/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="      Atribut href :"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a_mendefinisikan_hyperlink_atribut_hrefmenentukan_url_halaman_yang_dituju_tautan"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:text="     Contoh :"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/hrefhtml"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="      Atribut src :"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_img_digunakan_untuk_menyematkan_gambar_di_halaman_html_atribut_srcmenentukan_jalur_ke_gambar_yang_akan_ditampilkan"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Contoh :"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/srchtml"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="         Atribut lebar dan tinggi :"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_img_juga_harus_berisi_atribut_widthdan_height_yang_menentukan_lebar_dan_tinggi_gambar_dalam_piksel"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Contoh :"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tinggilebarhtml"
+        />
+</LinearLayout>

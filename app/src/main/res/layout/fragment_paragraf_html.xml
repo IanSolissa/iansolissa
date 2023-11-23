@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HTMLlAktifitas">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:src="@drawable/logohtml"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="     paragraf : "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/elemen_html_p_mendefinisikan_sebuah_paragraf"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paragraf selalu dimulai pada baris baru, dan browser secara otomatis menambahkan spasi putih (margin) sebelum dan sesudah paragraf."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Contoh : "
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paragrafhtml"
+        />
+<Space
+    android:layout_width="wrap_content"
+    android:layout_height="2mm"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     HTML Display : "
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         Anda tidak dapat memastikan bagaimana HTML akan ditampilkan.
+Layar besar atau kecil, dan jendela yang diubah ukurannya akan menghasilkan hasil yang berbeda.
+Dengan HTML, Anda tidak dapat mengubah tampilan dengan menambahkan spasi ekstra atau baris tambahan dalam kode HTML Anda.
+Browser akan secara otomatis menghapus spasi dan garis tambahan saat halaman ditampilkan:"/>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2mm"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Contoh : "
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paragrafhtml2" />
+
+
+</LinearLayout>
